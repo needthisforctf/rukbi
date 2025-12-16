@@ -22,6 +22,17 @@
             </languageList>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>aze</name>
+            <shortDescription>enaz</shortDescription>
+            <description>Rukbi English + Azerbaijani</description>
+            <languageList>
+              <iso639Id>eng</iso639Id>
+              <iso639Id>aze</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>

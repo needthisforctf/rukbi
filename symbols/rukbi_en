@@ -74,3 +74,18 @@ xkb_symbols "deu" {
 
     key <LSGT> {[less, greater, bar, brokenbar]};
 };
+
+partial alphanumeric_keys
+xkb_symbols "aze" {
+    include "rukbi_en(basic)"
+    name[Group1]="Rukbi English + Azerbaijani";
+
+    key <AD03> {[e, E, schwa, SCHWA]}; // Ə mapped to E
+    key <AD07> {[u, U, udiaeresis, Udiaeresis]}; // Ü mapped to Ü
+    key <AD08> {[i, I, idotless, Iabovedot]}; // İ mapped to I
+    key <AD09> {[o, O, odiaeresis, Odiaeresis]}; // Ö mapped to O
+    key <AC05> {[g, G, gbreve, Gbreve]}; // Ğ mapped to G
+    key <AB03> {[c, C, ccedilla, Ccedilla]}; // Ç mapped to C
+    key <AC02> {[s, S, scedilla, Scedilla]}; // Ş mapped to S
+    key <AE07> {[7, ampersand, ssharp, U1E9E]}; // ß mapped to &
+};
